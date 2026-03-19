@@ -1,0 +1,13 @@
+# Cache Pythona
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.conda/
