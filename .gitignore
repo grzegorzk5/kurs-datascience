@@ -11,3 +11,10 @@ __pycache__/
 venv/
 env/
 .conda/
+
+#IDEs
+.vscode/
+.idea/
+
+# Environment variables and sensitive data
+.env
