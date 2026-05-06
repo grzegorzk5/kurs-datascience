@@ -42,11 +42,13 @@ from models.movies import MovieBase
 # Mapowanie sekcji z alembic.ini do odpowiednich metadanych
 metadata_map = {
     "articles_db": ArticleBase.metadata,
+    "movies_db": MovieBase.metadata,
 }
 
 # Mapowanie sekcji z alembic.ini na nazwy zmiennych środowiskowych
 env_mapping = {
     "articles_db": "ARTICLES_DB_URL",
+    "movies_db": "MOVIES_DB_URL",
 }
 
 # Sprawdzenie, która nazwa sekcji została użyta (np. "articles_db")
